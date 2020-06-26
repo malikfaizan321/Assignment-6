@@ -339,10 +339,6 @@ alert("Current month: " + monthNames[currentMonth.getMonth()]);
 
 
 // Question No:3
-<<<<<<< HEAD
-=======
-// Question No:2
->>>>>>> 1ff912f67509e52fde9320ec042da41acc82f83a
 var weekNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 var currentWeek = new Date();
 alert("Today is: " + " " + weekNames[currentWeek.getDay()]);
@@ -374,7 +370,6 @@ else
 }
 
 
-<<<<<<< HEAD
 // Question No:6
 var currentDateTime = new Date();
 console.log("Current Date:" + " " + currentDateTime);
@@ -449,43 +444,6 @@ var currentMiliSecond = currentDateTime.getTime();
 var diffMiliSecond = currentMiliSecond - miliSecond;
 var age = Math.floor(diffMiliSecond / (1000 * 60 * 60 * 24 * 30 * 12));
 console.log("Your age is" + " " + age + " " + "years old");
-=======
-
-// Question No:6
-var date = new Date("July 20, 2016 15:00:00");
-var nextDate = date.getDate() + 20;
-date.setDate(nextDate);
-var newDate = date.toLocaleString();
-
-
-// Question No:7
-var currentDateTime = new Date("Jan 1, 1970");
-console.log("Current Date:" + " " , currentDateTime);
-
-var miliSecond = currentDateTime.getTime();
-console.log("Elapsed miliseconds since january 1, 1970:" + " " , miliSecond);
-
-var minutes = currentDateTime.getMinutes();
-console.log("Elapsed minutes since january 1, 1970:" + " " , minutes);
-
-
-// Question No:8
-
-
-// Question No:9
-
-
-// Question No:10
-
-
-// Question No:11
-
-
-// Question No:12
-
-
-// Question No:13
->>>>>>> 1ff912f67509e52fde9320ec042da41acc82f83a
 
 
 // Question No:14
@@ -547,11 +505,6 @@ console.log("Gross Amount Payable (After Due Date):" + " " + grossAmount);
 
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1ff912f67509e52fde9320ec042da41acc82f83a
 //-----------------------------------------------------------------------------------------//
                                       //Chapter No:35-38
                                       //FUNCTION METHODS
@@ -573,10 +526,6 @@ function fullName(firstName, lastName)
 }
 fullName("Sir", "Muhammad Ali Mughal...");
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1ff912f67509e52fde9320ec042da41acc82f83a
 // Question No:3
 function sumOfTwoNumber(a,b)
 {
@@ -784,11 +733,7 @@ var printLetterInWord = letterRepeatInString("www.google.com", "o");
 console.log("Letter repeat in word is:" + " " + printLetterInWord  + " " + "times.");
 
 
-<<<<<<< HEAD
 // Question No:14
-=======
-// Question No:13
->>>>>>> 1ff912f67509e52fde9320ec042da41acc82f83a
 //Calculate circumference of circle
 function circumferenceOfCircle(radius)
 {
